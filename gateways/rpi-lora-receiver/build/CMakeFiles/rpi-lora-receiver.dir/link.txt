@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/rpi-lora-receiver.dir/main.cpp.o -o rpi-lora-receiver  RadioLib/libRadioLib.a -lpigpio -lpaho-mqttpp3 -lpaho-mqtt3as 
