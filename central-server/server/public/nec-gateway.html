@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEC Gateway</title>
+    <link rel="stylesheet" href="nec-gateway.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="nec-gateway.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">CARE oneM2M Air Quality Monitoring Network</div>
+            <div class="nav-links">
+                <a href="http://100.70.99.17:7777">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Gateways</button>
+                    <div class="dropdown-content">
+                        <a href="http://100.70.99.17:7777/eeei-gateway"">EEEI</a>
+                        <a href="http://100.70.99.17:7777/melchor-gateway">Old Balara</a>
+                        <a href="http://100.70.99.17:7777/nec-gateway">NEC</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>NEC Gateway</h1>
+        <div id="cards" class="cards">
+            <!-- Cards will be dynamically generated here -->
+        </div>
+    </main>
+</body>
+</html>
