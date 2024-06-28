@@ -1,0 +1,30 @@
+{
+    "cse": {
+        "ip": "http://100.70.99.17",
+        "port": 7579,
+        "id": "Mobius",
+        "name": "Mobius",
+        "release": "1",
+        "acp_required": false
+    },  
+    "mnList":[
+        {
+            "name": "EEEI",
+            "gatewayIP": "http://100.64.196.100:7776",
+            "resourceName": "eeei-gateway",
+            "rpi-owner": "Gabriel Limlingan"
+        },
+        {
+            "name": "MelchorHall",
+            "gatewayIP": "http://100.92.199.110:7776",
+            "resourceName": "melchor-gateway",
+            "rpi-owner": "Jonnar Diosana"
+        },
+        {
+            "name": "NEC",
+            "gatewayIP": "http://100.83.107.52:7776",
+            "resourceName": "nec-gateway",
+            "rpi-owner": "Dan Sore"
+        }
+    ]
+}

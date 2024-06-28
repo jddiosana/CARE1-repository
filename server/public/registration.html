@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Registration</title>
+    <link rel="stylesheet" href="registration.css">
+    <script defer src="registration.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">CARE oneM2M Air Quality Monitoring Network</div>
+            <div class="nav-links">
+                <a href="http://100.70.99.17:7777">Home</a>
+                <a href="#">Overview</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Gateways</button>
+                    <div class="dropdown-content">
+                        <a href="http://100.70.99.17:7777/eeei-gateway"">EEEI</a>
+                        <a href="http://100.70.99.17:7777/melchor-gateway">Melchor Hall</a>
+                        <a href="http://100.70.99.17:7777/nec-gateway">NEC</a>
+                    </div>
+                </div>
+                <a href="#">About Us</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <form id="registration-form">
+            <label for="deviceName">Device name</label>
+            <input type="text" id="deviceName" name="deviceName" required>
+
+            <label for="model">Model</label>
+            <input type="text" id="model" name="model" required>
+
+            <label for="wirelessTech">Wireless Technology</label>
+            <select id="wirelessTech" name="wirelessTech" required>
+                <option value="" disabled selected>Select technology</option>
+                <option value="WiFi">WiFi</option>
+                <option value="LoRa">LoRa</option>
+                <option value="Zigbee">Zigbee</option>
+            </select>
+
+            <label for="gateway">Gateway</label>
+            <select id="gateway" name="gateway" required>
+                <option value="" disabled selected>Select gateway</option>
+                <option value="EEEI">EEEI</option>
+                <option value="MelchorHall">Melchor Hall</option>
+                <option value="NEC">NEC</option>
+            </select>
+
+            <label for="room">Room no.</label>
+            <input type="text" id="room" name="room" required>
+
+            <label for="mqttTopic">MQTT Topic</label>
+            <input type="text" id="mqttTopic" name="mqttTopic" readonly>
+
+            <button type="submit">SUBMIT</button>
+        </form>
+    </main>
+</body>
+</html>
