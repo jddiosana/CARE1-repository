@@ -1,0 +1,12 @@
+{
+    "parent" : {
+        "cbname": "up-diliman",
+        "cbcseid": "/up-diliman",
+        "cbhost": "100.70.99.17",
+        "cbhostport": "7579",
+        "cbprotocol": "http",
+        "mqttbroker": "100.70.99.17"
+    },
+    "csebaseport": "7599",
+    "dbpass": "password"
+}

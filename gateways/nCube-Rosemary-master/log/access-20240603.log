@@ -1,0 +1,6 @@
+::1 - - [03/Jun/2024:06:24:49 +0000] "GET /melchor-gateway HTTP/1.1" 200 - "-" "-"
+::1 - - [03/Jun/2024:06:24:49 +0000] "GET /melchor-gateway HTTP/1.1" 200 - "-" "-"
+::1 - - [03/Jun/2024:06:24:51 +0000] "POST /melchor-gateway HTTP/1.1" 201 - "-" "-"
+::1 - - [03/Jun/2024:06:25:53 +0000] "POST /melchor-gateway HTTP/1.1" 201 - "-" "-"
+::1 - - [03/Jun/2024:06:26:09 +0000] "POST /melchor-gateway HTTP/1.1" 201 - "-" "-"
+::1 - - [03/Jun/2024:06:26:52 +0000] "POST /melchor-gateway HTTP/1.1" 201 - "-" "-"
