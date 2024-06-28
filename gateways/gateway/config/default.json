@@ -1,0 +1,13 @@
+{
+    "cse": {
+        "ip": "http://localhost",
+        "gatewayIP": "http://100.92.199.110",
+        "port": 7599,
+        "id": "melchor-gateway",
+        "name": "melchor-gateway",
+        "release": "1",
+        "acp_required": false,
+        "parentIP": "http://100.70.99.17:7579",
+        "parentName": "up-diliman"
+    }
+}
