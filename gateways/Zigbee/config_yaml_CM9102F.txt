@@ -1,0 +1,10 @@
+homeassistant: false
+frontend: true
+mqtt:
+  base_topic: "topic"
+  server: mqtt://localhost
+  keepalive: 60
+  reject_unauthorized: true
+  version: 4
+serial:
+  port: /dev/ttyACM0
